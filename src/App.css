@@ -1,7 +1,15 @@
+
 footer{
   position: fixed;
   height: 50px;
   bottom: 0px;
+  padding-top: 10px;
+  width: 100%;
+  border-top: 2px solid white;
+  background-size: cover;
+  text-align: center;
+  background-color: rgb(5, 5, 5);
+  color: white;
   
 }
 
@@ -21,7 +29,7 @@ footer{
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #4a4c50;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -42,4 +50,14 @@ footer{
   to {
     transform: rotate(360deg);
   }
+}
+#nav{
+  margin-bottom: 0!important;
+}
+#header {
+  background-image: url(./images/lataus.png);
+  height: 500px;
+  width: 100%;
+  
+  background-size: cover;
 }
